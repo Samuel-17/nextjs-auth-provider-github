@@ -3,27 +3,8 @@ import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
-// Form in server
-// export const getServerSideProps: GetServerSideProps = async ({ req }) => {
-//   const session = getSession({ req });
-
-//   if (session) {
-//     return {
-//       redirect: {
-//         destination: "/",
-//         permanent: false,
-//       },
-//     };
-//   }
-//   return {
-//     props: {},
-//   };
-// };
-
 export default function SignIn() {
   const { data: session } = useSession();
-  console.log(session);
-
   const router = useRouter();
 
   useEffect(() => {

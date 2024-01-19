@@ -7,6 +7,7 @@ type User = {
   name: string;
   email: string;
 };
+
 interface sessionProps {
   expires: string;
   user: User;

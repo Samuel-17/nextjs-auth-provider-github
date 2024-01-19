@@ -18,8 +18,8 @@ export default function SignIn() {
   }
 
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-100">
-      <form className="bg-white shadow-md rounded w-1/3 h-1/2 p-8 flex flex-col items-center justify-center space-y-4">
+    <div className="flex items-center justify-center h-screen">
+      <form className="shadow-md rounded w-1/3 h-1/2 p-8 flex flex-col items-center justify-center space-y-4">
         {/* Logo no centro */}
         <img
           width={50}

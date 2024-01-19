@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --main-bg: #fff;
+    --main-text-color: #000;
+}
+
 body{
-    background: #000;
-    color: #fff;
+    background: var(--main-bg);
+    color: var(--main-text-color);
 }

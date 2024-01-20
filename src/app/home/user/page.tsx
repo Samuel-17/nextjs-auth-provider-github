@@ -8,8 +8,6 @@ type User = {
   email: string;
 };
 
-//hello world
-
 interface sessionProps {
   expires: string;
   user: User;
